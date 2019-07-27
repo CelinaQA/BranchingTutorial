@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#! /bin/bash
 sudo apt update
 sudo apt install -y openjdk-8-jdk
 sudo apt install -y maven
@@ -11,5 +11,4 @@ sudo apt update
 sudo apt install -y jenkins
 
 sleep 5s
-sudo chmod 777 /var/lib/jenkins/secrets/
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
