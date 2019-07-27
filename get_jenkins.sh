@@ -10,5 +10,7 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt update
 sudo apt install -y jenkins
 
-sleep 5s
+sudo systemcrl enable jenkins
+sudo systemctl restart jenkins
+sleep 3s
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
