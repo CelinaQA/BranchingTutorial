@@ -5,4 +5,4 @@ sudo usermod -aG docker $(whoami)
 sudo systemctl docker start
 sudo systemctl docker enable
 
-echo "Please restart your terminal"
+echo "Please restart your Terminal"
